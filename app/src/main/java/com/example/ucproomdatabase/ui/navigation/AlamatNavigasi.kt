@@ -20,5 +20,15 @@ object DestinasiInsertJad: AlamatNavigasi{
     override val route: String = "insert_jad"
 }
 
+object DestinasiDetailJad: AlamatNavigasi{
+    override val route = "detail_jad"
+    const val IDJ = "idJ"
+    val routesWithArg = "$route/{$IDJ}"
+}
 
+object  DestinasiUpdateJad: AlamatNavigasi{
+    override val route = "update_jad"
+    const val IDJ = "idJ"
+    val routesWithArg = "$route/{$IDJ}"
+}
 
