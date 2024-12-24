@@ -318,13 +318,13 @@ fun CardDok(
             verticalAlignment = Alignment.CenterVertically,
             horizontalArrangement = Arrangement.Center
         ){
-           Icon(
-               imageVector = Icons.Default.AccountCircle,
-               contentDescription = null,
-               tint = colorResource(R.color.sage0),
-               modifier = modifier
-                   .size(100.dp)
-           )
+            Icon(
+                imageVector = Icons.Default.AccountCircle,
+                contentDescription = null,
+                tint = colorResource(R.color.sage0),
+                modifier = modifier
+                    .size(100.dp)
+            )
             Column (
                 modifier = Modifier
                     .padding(8.dp)
